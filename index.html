@@ -1,57 +1,152 @@
+<!doctype html>
 <html>
 <head>
-<mate charset="utf-8">
-  <style>
-    a{
-      color:#000;
-      line-height:30px;
-      text-decoration:none;
-      font-wight:300;
-    }
-    a:hover{
-      color:red;
-      font-wight:bold;
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+<title>综合资源</title>
+	<style type="text/css">
+		body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,from,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+		body{
+		font-size:1em;
+		font-family:Arial;
+		box-sizing:border-box;
+		-moz-box-sizing:border-box; /* Firefox */
+		-webkit-box-sizing:border-box; /* Safari */
+		}
+		li{list-style:none;}
+		input,select,textarea{outline:none;border:none;background:none;}
+		textarea{resize:none;}
+		a{text-decoration:none; color:#656565;}
+		section{
+			display: flex;
+			max-width: 1000px;
+			margin: 0 auto;
+		}
+		.resourcesItem{
+			flex: 50%;
+		}
+		.resourcesItemCon{
+			display: flex;
+			border: 1px solid #157e6f;
+/*			padding-bottom: 2%;*/
+			line-height: 25px;
+			text-align: center;
+		}
+		.resourcesItemCon .title{
+			flex: 20%;
+		}
+		.resourcesItemCon .jiasu{
+			flex: 30%;
+		}
+		.resourcesItemCon .lianjie{
+			flex: 50%;
+		}
+		.resourcesItemCon .lianjie  span{
+			text-align: left;
+			padding-left: 5px;
+		}
+		.resourcesItemCon>div span{
+			border-bottom: 1px dotted #444;
+			display: block;
+		}
+		.resourcesItemCon .title,
+		.resourcesItemCon .jiasu{
+			border-right: 1px dotted #444;
+		}
+		.resourcesItem:nth-child(2n){
+			margin-left: 2%;
+		}
+		section h2{
+			display: block;
+			color: #fff;
+			text-align: center;
+			background: #157e6f;
+			padding: 8px 0;
+		}
+		.jiasu .k{
+			color: red !important;
+		}
+	</style>
 </head>
+
 <body>
-  <div class="ziyuan">
-    <div class="ziyuanItem">
-      <p>免费节点池</p>
-      <a href="https://free.zdl.im/" target="_blank">https://free.zdl.im/</a><br>
-      <a href="https://fu.stgod.com/" target="_blank">https://fu.stgod.com/</a><br>
-      <a href="https://hellopool.herokuapp.com/" target="_blank">https://hellopool.herokuapp.com/</a><br>
-      <a href="https://origamiboy.herokuapp.com/ " target="_blank">https://origamiboy.herokuapp.com/ </a><br>
-      <a href="https://proxy.suntiefeng.com/" target="_blank">https://proxy.suntiefeng.com/</a><br>
-      <a href="https://proxypoolss.fly.dev/ " target="_blank">https://proxypoolss.fly.dev/ </a><br>
-      <a href="https://ednovas.design/" target="_blank">https://ednovas.design/</a><br>
-      <a href="http://149.248.8.112/" target="_blank">http://149.248.8.112/</a><br>
-      <a href="https://161.35.5.88/" target="_blank">https://161.35.5.88/</a><br>
-      <a href="http://104.128.81.6:8080/" target="_blank">http://104.128.81.6:8080/</a><br>
-      <a href="http://wxshi.top:9090/" target="_blank">http://wxshi.top:9090/</a><br>
-      <a href="http://104.168.95.4:8080/" target="_blank">http://104.168.95.4:8080/</a><br>
-      <a href="https://proxy.whuboy.com/ " target="_blank">https://proxy.whuboy.com/ </a><br>
-      <a href="https://zua426.cf/" target="_blank">https://zua426.cf/</a><br>
-      <a href="https://185.161.70.4/" target="_blank">https://185.161.70.4/</a><br>
-      <a href="http://161.35.5.88:8082/" target="_blank">http://161.35.5.88:8082/</a><br>
-      <a href="http://213.188.195.217/" target="_blank">http://213.188.195.217/</a><br>
-      <a href="https://proxy.51798.xyz/" target="_blank">https://proxy.51798.xyz/</a><br>
-      <a href="https://sspool.herokuapp.com/" target="_blank">https://sspool.herokuapp.com/</a><br>
-      <a href="https://us-proxypool.herokuapp.com/" target="_blank">https://us-proxypool.herokuapp.com/</a><br>
-      <a href="https://eu-proxypool.herokuapp.com/ " target="_blank">https://eu-proxypool.herokuapp.com/ </a><br>
-      <a href="http://www.fuckgfw.tk/" target="_blank">http://www.fuckgfw.tk/</a><br>
-      <a href="https://etproxypool.ga/" target="_blank">https://etproxypool.ga/</a><br>
-      <a href="https://free.kingfu.cf/ " target="_blank">https://free.kingfu.cf/ </a><br>
-      <a href="https://www.linbaoz.com/" target="_blank">https://www.linbaoz.com/</a><br>
-      <a href="https://www.qunima.cc/" target="_blank">https://www.qunima.cc/</a><br>
-      <a href="https://www.joemt.tk/" target="_blank">https://www.joemt.tk/</a><br>
-      <a href="test.txt" download="test.txt">下载</a>
-    </div>
-    <div class="ziyuanItem">
-      <h2>可下载和播放资源</h2>
-      <p>开放式资源——点击链接播放</p><a href="http://x77656.com/bbs/" terget="_blank">http://x77656.com/bbs/</a>
-    </div>
- </div>
+	<section>
+		<div class="resourcesItem">
+			<h2>VPN节点资源代理网站</h2>
+			<div class="resourcesItemCon">
+				<div class="title">
+					<span style="font-weight: bold">代理点</span>
+					<span>1</span>
+					<span>2</span>
+					<span>3</span>
+					<span>4</span>
+					<span>5</span>
+					<span>6</span>
+					<span>7</span>
+					<span>8</span>
+					<span>9</span>
+					<span>10</span>
+					<span>11</span>
+					<span>12</span>
+					<span>13</span>
+					<span>14</span>
+					<span>15</span>
+					<span>16</span>
+					<span>17</span>
+					<span>18</span>
+					
+				</div>
+				<div class="jiasu">
+					<span style="font-weight: bold">是否加速</span>
+					<span class="w">未开启</span>
+					<span class="k">已开启</span>
+					<span class="k">已开启</span>
+					<span class="w">未开启</span>
+					<span class="k">已开启</span>
+					<span class="w">未开启</span>
+					<span class="w">未开启</span>
+					<span class="w">未开启</span>
+					<span class="w">未开启</span>
+					<span class="w">未开启</span>
+					<span class="k">已开启</span>
+					<span class="w">未开启</span>
+					<span class="k">已开启</span>
+					<span class="k">已开启</span>
+					<span class="w">未开启</span>
+					<span class="w">未开启</span>
+					<span class="w">未开启</span>
+					<span class="w">未开启</span>
+				</div>
+				<div class="lianjie">
+					<span style="font-weight: bold; text-align: center">链接</span>
+					<span><a href="https://free.zdl.im/" target="_blank">https://free.zdl.im/</a></span>
+					<span><a href="https://hellopool.herokuapp.com/" target="_blank">https://hellopool.herokuapp.com/</a></span>
+					<span><a href="https://origamiboy.herokuapp.com/" target="_blank">https://origamiboy.herokuapp.com/</a></span>
+					<span><a href="https://proxypoolss.fly.dev/" target="_blank">https://proxypoolss.fly.dev/</a></span>
+					<span><a href="https://ednovas.design/" target="_blank">https://ednovas.design/</a></span>
+					<span><a href="http://149.248.8.112/" target="_blank">http://149.248.8.112/</a></span>
+					<span><a href="http://104.128.81.6:8080/" target="_blank">http://104.128.81.6:8080/</a></span>
+					<span><a href="http://wxshi.top:9090/" target="_blank">http://wxshi.top:9090/</a></span>
+					<span><a href="https://proxy.whuboy.com/" target="_blank">https://proxy.whuboy.com/</a></span>
+					<span><a href="https://zua426.cf/" target="_blank">https://zua426.cf/</a></span>
+					<span><a href="https://proxy.51798.xyz/" target="_blank">https://proxy.51798.xyz/</a></span>
+					<span><a href="https://sspool.herokuapp.com/" target="_blank">https://sspool.herokuapp.com/</a></span>
+					<span><a href="https://us-proxypool.herokuapp.com/" target="_blank">us-proxypool.herokuapp.com/</a></span>
+					<span><a href="https://eu-proxypool.herokuapp.com/" target="_blank">eu-proxypool.herokuapp.com/</a></span>
+					<span><a href="http://www.fuckgfw.tk/" target="_blank">http://www.fuckgfw.tk/</a></span>
+					<span><a href="https://free.kingfu.cf/" target="_blank">https://free.kingfu.cf/</a></span>
+					<span><a href="https://www.linbaoz.com/" target="_blank">https://www.linbaoz.com/</a></span>
+					<span><a href="https://www.joemt.tk/" target="_blank">https://www.joemt.tk/</a></span>
+				</div>
+			</div>
+		</div>
+		<div class="resourcesItem">
+			<h2>常用资源下载点</h2>
+			<div class="resourcesItemCon">
+				<div class="title2"></div>
+				<div class="lianjie"></div>
+			</div>
+		</div>
+	</section>
 </body>
 </html>
-
