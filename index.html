@@ -20,7 +20,7 @@
 		section{
 			display: flex;
 			max-width: 1000px;
-			margin: 20px auto;
+			margin: 50px auto;
 		}
 		.resourcesItem{
 			flex: 50%;
@@ -43,14 +43,15 @@
 		}
 		.resourcesItemCon .lianjie  span{
 			text-align: left;
-			padding-left: 5px;
+			padding:0 5px;
 		}
 		.resourcesItemCon>div span{
 			border-bottom: 1px dotted #444;
-			display: block;
+			display: block; 
 		}
 		.resourcesItemCon .title,
-		.resourcesItemCon .jiasu{
+		.resourcesItemCon .jiasu,
+		.resourcesItemCon .title2{
 			border-right: 1px dotted #444;
 		}
 		.resourcesItem:nth-child(2n){
@@ -65,6 +66,13 @@
 		}
 		.jiasu .k{
 			color: red !important;
+		}
+		.resourcesItemCon .title2{
+			width: 80%;
+		}
+		.resourcesItemCon .lianjie2{
+			width: 20%;
+			display: block;
 		}
 	</style>
 </head>
@@ -143,8 +151,12 @@
 		<div class="resourcesItem">
 			<h2>常用资源下载点</h2>
 			<div class="resourcesItemCon">
-				<div class="title2"></div>
-				<div class="lianjie"></div>
+				<div class="title2">
+					<span>fdf</span>
+				</div>
+				<div class="lianjie2">
+					<span><a href="test.txt" download="ceshi">下载</a></span>
+				</div>
 			</div>
 		</div>
 	</section>
